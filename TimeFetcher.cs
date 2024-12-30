@@ -11,8 +11,8 @@ public class TimeFetcher : MonoBehaviour
     public InputField cityInput; // Legacy InputField for user to input city name
     public TMP_Text countdownDisplay; // Display the countdown to midnight
 
-    private string geocodeApiKey = "9ee7976575464d1db4c61d6f33efe836"; // Replace with your OpenCage API key
-    private string timeApiKey = "rIXmIwpStNLltaB9WQXYeQ==0rfZrVZNtYbq7VcN"; // Your WorldTimeAPI key
+    private string geocodeApiKey = "Replace with your OpenCage API key";
+    private string timeApiKey = "Your WorldTimeAPI key"; 
     private bool countdownActive = false; // Flag to check if countdown is active
     private DateTime targetTime; // Target time (midnight on December 31st)
     private Coroutine countdownCoroutine; // Reference to the countdown coroutine
